@@ -1,0 +1,166 @@
+/* ======= CONFIGURAÇÕES GERAIS ======= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: #ffffff;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* ======= CABEÇALHO / PERFIL ======= */
+header {
+  padding: 40px 20px;
+}
+
+.perfil img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #ff00ff;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 2.3rem;
+  color: #3a2fd1;
+}
+
+h3 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #555;
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+/* ======= SKILLS (HABILIDADES) ======= */
+.skills {
+  margin-top: 20px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 6px 14px;
+  margin: 6px;
+  border: 1px solid #ff00ff;
+  border-radius: 20px;
+  color: #ff00ff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* ======= SEÇÃO PROJETOS ======= */
+.projetos {
+  padding: 50px 20px;
+}
+
+.projetos h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #3a2fd1;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 280px;
+  border: 1px solid #ff00ff;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: left;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  color: #3a2fd1;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ff00ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* ======= PÁGINA DE PROJETO ======= */
+.detalhe-projeto {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.detalhe-projeto h2 {
+  color: #3a2fd1;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.detalhe-projeto img {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.botoes {
+  margin-top: 20px;
+}
+
+.botoes a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 22px;
+  border-radius: 30px;
+  text-decoration: none;
+  background: linear-gradient(90deg, #ff00ff, #7700ff);
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.botoes a:hover {
+  opacity: 0.85;
+}
+
+/* ======= RODAPÉ ======= */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background: #f8f8f8;
+}
+
+footer h2 {
+  color: #3a2fd1;
+  margin-bottom: 10px;
+}
